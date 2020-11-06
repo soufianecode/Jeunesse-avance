@@ -10,10 +10,6 @@ Team Project: **5**
 | :-----: | :-----: | :-----: | :-----: | :-----: |
 | Noémie | Louis | Soufiane | Maxime | Bastien |
 
-
-
-Lien du repo initial : [ICI](https://github.com/becodeorg/BXL-Swartz-3-21/blob/master/06-PHP/getflix_project.md).
-
 ## Languages Utilisés
 
 * HTML5
