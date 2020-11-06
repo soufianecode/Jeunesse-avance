@@ -8,7 +8,7 @@ Team Project: **5**
 
 | + | + | The Team | + | + |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
-| Noémie | Louis | - | Soufiane | Maxime | Bastien |
+| Noémie | Louis | Soufiane | Maxime | Bastien |
 
 
 
