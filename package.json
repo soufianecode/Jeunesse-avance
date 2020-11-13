@@ -1,0 +1,29 @@
+{
+  "name": "jeunesse-avance",
+  "version": "1.0.0",
+  "description": "Type of challenge: **Team work**  \r Duration : **1 months**  \r Team Project: **5**",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soufianecode/Jeunesse-avance.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soufianecode/Jeunesse-avance/issues"
+  },
+  "homepage": "https://github.com/soufianecode/Jeunesse-avance#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
