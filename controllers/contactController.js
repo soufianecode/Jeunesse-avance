@@ -1,6 +1,7 @@
 module.exports={
     //Function to display contact.ejs
     display:function(req, res) {
-        res.render('../views/contact');
+        let pageName="Contact";
+        res.render('../views/contact', {pageName:pageName});
    },
 }

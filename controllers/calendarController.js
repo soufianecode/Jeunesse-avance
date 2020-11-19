@@ -1,6 +1,7 @@
 module.exports={
     //Function to display calendar.ejs
     display:function(req, res) {
-        res.render('../views/calendar');
+        let pageName="Calendar";
+        res.render('../views/calendar', {pageName:pageName});
    },
 }

@@ -1,22 +1,25 @@
 .navbarButton{
     all:unset;
-    background-color: #640A20;
+    background-color: #79001E;
     border-radius: 3px;
     color : white;
 }
 .navbarButton:hover{
-    background-color: #EBDFE2;
-    color : #640A20
+    background-color: #003379;
+}
+
+.navbarButtonActive{
+    background-color: #003379;
 }
 .nav-link{
     color : white;
 }
 
 .nav-link:hover{
-    color:#640A20
+    color:white
 }
 
 .titreUltime{
-    font-size: 280%;
-    color:#640A20
+    font-size: 200%;
+    color:#003379
 }

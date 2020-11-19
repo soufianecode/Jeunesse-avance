@@ -1,21 +1,42 @@
-<nav class="navbar-nav navbar-expand mt-3 d-flex align-items-center">
-    <div class="col-lg-6 d-flex align-items-center justify-content-around ">
-        <span>LOGO </span>
-        <span class="titreUltime"> Jeunesse Avance </span>
+<nav class="navbar-nav navbar-expand mt-3 d-flex align-items-center justify-content-around ">
+    <div class="col-11 col-lg-6 d-flex align-items-center justify-content-around ">
+        <span class="mx-4">LOGO </span>
+        <span class="titreUltime text-center"> Jeunesse Avance ASBL</span>
     </div>
-    <!-- Navbar que sur les grands écrans -->
-    <div class="col-lg-6">
-        <ul class="navbar-nav d-flex align-items-center justify-content-around d-none">
-            <li class="nav-item d-none d-md-block navbarButton px-3"><a class="nav-link" href="/home">Home</a></li>
-            <li class="nav-item d-none d-md-block navbarButton px-3"><a class="nav-link" href="/team">Equipe</a></li>
-            <li class="nav-item d-none d-md-block navbarButton px-3"><a class="nav-link" href="/activities">Activités</a></li>
-            <li class="nav-item d-none d-md-block navbarButton px-3"><a class="nav-link" href="/calendar">Agenda</a></li>
-            <li class="nav-item d-none d-md-block navbarButton px-3"><a class="nav-link" href="/contact">Contact</a></li>
-            <!-- Dropdown ne se montre que sur les petits écrans -->
-            <li class="nav-item dropdown d-md-none">
+
+    <div class="mr-5 col-1 col-lg-6">
+        <!-- Navbar que sur les grands écrans -->
+        <ul class="navbar-nav d-flex d-none justify-content-end">
+            <%if(pageName=="Home"){%>
+                <li class="nav-item d-none d-lg-block navbarButtonActive px-2 mx-2"><a class="nav-link" href="/home">Home</a></li>
+            <%}else{%>
+                <li class="nav-item d-none d-lg-block navbarButton px-2 mx-2"><a class="nav-link" href="/home">Home</a></li>
+            <%}%>
+            <%if(pageName=="Team"){%>
+                <li class="nav-item d-none d-lg-block navbarButtonActive px-2 mx-2"><a class="nav-link" href="/team">Equipe</a></li>
+            <%}else{%>
+                <li class="nav-item d-none d-lg-block navbarButton px-2 mx-2"><a class="nav-link" href="/team">Equipe</a></li>
+            <%}%>
+            <%if(pageName=="Activities"){%>
+                <li class="nav-item d-none d-lg-block navbarButtonActive px-2 mx-2"><a class="nav-link" href="/activities">Activités</a></li>
+            <%}else{%>
+                <li class="nav-item d-none d-lg-block navbarButton px-2 mx-2"><a class="nav-link" href="/activities">Activités</a></li>
+            <%}%>
+            <%if(pageName=="Calendar"){%>
+                <li class="nav-item d-none d-lg-block navbarButtonActive px-2 mx-2"><a class="nav-link" href="/calendar">Agenda</a></li>
+            <%}else{%>
+                <li class="nav-item d-none d-lg-block navbarButton px-2 mx-2"><a class="nav-link" href="/calendar">Agenda</a></li>
+            <%}%>
+            <%if(pageName=="Contact"){%>
+                <li class="nav-item d-none d-lg-block navbarButtonActive px-2 mx-2"><a class="nav-link" href="/contact">Contact</a></li>
+            <%}else{%>
+                <li class="nav-item d-none d-lg-block navbarButton px-2 mx-2"><a class="nav-link" href="/contact">Contact</a></li>
+            <%}%>
+        <!-- Dropdown ne se montre que sur les petits écrans -->
+            <li class="col-2 nav-item dropleft d-lg-none">
                 <a class="nav-link dropdown-toggle navbarButton" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
-                    Navigate
+                    <i class="fas fa-bars"></i>
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item text-dark" href="/home">Home</a>
