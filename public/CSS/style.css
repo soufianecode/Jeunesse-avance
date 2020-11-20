@@ -23,9 +23,6 @@
     font-size: 200%;
     color:#003379
 }
-h1{
-    color:red
-}
 
 /* CONTACT page */
 *{
@@ -33,7 +30,6 @@ h1{
   }
   
   body{
-    background:#92bde7;
     color:#485e74;
     line-height:1.6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
