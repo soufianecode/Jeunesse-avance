@@ -1,37 +1,19 @@
-// creation de serv
-
-const express = require('express');
-const mongoose = require('mongoose');
-// const authRoutes = require('./routes/authRoutes')
-// const cookieParser = require('cookie-Parser');
-
+const express = require("express");
+const bodyParser = require("body-parser");
 const app = express();
 
+//Syntaxe to use body-parser
+app.use(bodyParser.urlencoded({extended : true}));
 
-// middleware
+//Syntaxe to use EJS + use CSS/images
+app.set('view engine', 'ejs');
+app.use(express.static("\public"));
 
-app.use(express.static('public'));
-app.use(express.json());
-// app.use(cookieParser());
+//Take the router
+let router = require('./router');
+app.use(router);
 
-// lecture de fichier ejs
-
-app.set('view engine' , 'ejs');
-
-//database connection
-
-// const dbURI = '';
-
-
-// mongoose.connect(dbURI, {useNewUrlParser: true, useUnifiedTopology: true , useCreateIndex: true })
-// .then((result) => app.listen(8080))
-// .catch((err) => console.log(err));
-
-app.listen(8080, function() {
-    console.log('listening on 8080')
-  })
-
-//routes
-
-app.get('/', (req,res) => res.render('index'));
-// app.use(authRoutes);
+//Set up localhost
+app.listen(3000, function(){
+    console.log("Server on 3000 activated.");
+})
