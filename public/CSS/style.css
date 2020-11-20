@@ -1,5 +1,5 @@
+/* Navbar */
 .navbarButton{
-    all:unset;
     background-color: #79001E;
     border-radius: 3px;
     color : white;
@@ -9,8 +9,11 @@
 }
 
 .navbarButtonActive{
+    color : white;
+    border-radius: 3px;
     background-color: #003379;
 }
+
 .nav-link{
     color : white;
 }
@@ -22,6 +25,11 @@
 .titreUltime{
     font-size: 200%;
     color:#003379
+}
+
+/* Footer */
+footer{
+  background-color: #C4C4C4;
 }
 
 /* CONTACT page */
