@@ -17,6 +17,8 @@ Team Project: **5**
 * Nodejs, Mongodb
 * JS
 * Bootstrap 4
+* Nodemon
+* Nodemailer
 
 ## Avancée du projet
 
