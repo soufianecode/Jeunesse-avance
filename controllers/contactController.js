@@ -4,4 +4,6 @@ module.exports={
         let pageName="Contact";
         res.render('../views/contact', {pageName:pageName});
    },
+   contact: function (req,res){
+   },
 }
