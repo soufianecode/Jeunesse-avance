@@ -84,7 +84,14 @@ footer{
   .contact{
     background:#f9feff;
   }
-  
+
+  /*carousel*/
+  .carousel-control-next,
+  .carousel-control-prev {
+      filter: invert(100%);
+  }
+
+
   /* FORM STYLES */
   .contact form{
     display: grid;
