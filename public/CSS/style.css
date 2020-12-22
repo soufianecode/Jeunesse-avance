@@ -29,13 +29,7 @@
 .titreUltime {
   font-size: 200%;
   color: #003379;
-
-/* Footer
-footer{
-  background-color: #C4C4C4;
-} */
-
-
+}
 /* CONTACT page */
 *{
     box-sizing: border-box;
@@ -79,8 +73,6 @@ footer{
   .company-info{
     background:#c9e6ff;
   }
-  
-}
 
 .container {
   max-width: 1170px;
@@ -344,9 +336,9 @@ section .section-title {
 
 /* end team page css */
 /* footer */
-footer {
+/* footer {
   background-color: #C4C4C4;
-}
+} */
 
 /* end footer */
 
