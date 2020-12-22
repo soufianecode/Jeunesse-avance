@@ -1,9 +1,43 @@
-<%- include('head.ejs'); %>
-<title>Activités</title>
-</head>
-<body>
-    <%- include('navbar.ejs'); %>
-<h1>Activités</h1>
+<%- include('partials/header'); -%>
+    <title>Jeunesse Avance - Activités</title>
+    </head>
 
-</body>
-</html>
+    <body>
+        <%- include('partials/navbar'); %>
+            <h1>Activités</h1>
+            <h2>Nom de l'activité</h2>
+            <!-- Carousel-->
+            <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                <div class="carousel-inner">
+                    <div class="col-10 offset-1">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-4"><img class="img-fluid" src="/Images/test1.jpg" alt="1 slide"></div>
+                                <div class="col-4"><img class="img-fluid" src="/Images/test2.jpg" alt="2 slide"></div>
+                                <div class="col-4"><img class="img-fluid" src="/Images/test3.jpg" alt="3 slide"></div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-4"><img class="img-fluid" src="/Images/test3.jpg" alt="4 slide"></div>
+                                <div class="col-4"><img class="img-fluid" src="/Images/test2.jpg" alt="5 slide"></div>
+                                <div class="col-4"><img class="img-fluid" src="/Images/test1.jpg" alt="6 slide"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            </div>
+            <%- include('partials/footer'); -%>
+                <%- include('partials/scripts'); %>
+    </body>
+
+    </html>

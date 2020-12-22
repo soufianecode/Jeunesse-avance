@@ -14,5 +14,7 @@ router.get('/team', teamController.display );
 router.get('/calendar', calendarController.display );
 router.get('/activities', activitiesController.display );
 router.get('/contact', contactController.display );
+router.post('/send', contactController.contact);
+
 
 module.exports = router;
