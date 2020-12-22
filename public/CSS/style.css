@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-.navbarButton {
-  all: unset;
-  background-color: #79001E;
-  border-radius: 3px;
-  color: white;
-}
-
-.navbarButton:hover {
-  background-color: #003379;
-}
-
-.navbarButtonActive {
-  background-color: #003379;
-=======
 /* Navbar */
 .navbarButton{
     background-color: #79001E;
@@ -31,7 +16,6 @@
 
 .nav-link{
     color : white;
->>>>>>> 3d68281548df8afc20e93b7cd915497239620f7a
 }
 
 .nav-link {
@@ -42,31 +26,17 @@
   color: white
 }
 
-<<<<<<< HEAD
 .titreUltime {
   font-size: 200%;
-  color: #003379
-=======
-/* Footer */
+  color: #003379;
+
+/* Footer
 footer{
   background-color: #C4C4C4;
->>>>>>> 3d68281548df8afc20e93b7cd915497239620f7a
-}
+} */
 
 
 /* CONTACT page */
-<<<<<<< HEAD
-* {
-  box-sizing: border-box;
-}
-
-body {
-  /* background: #92bde7; */
-  color: #485e74;
-  line-height: 1.6;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 1em;
-=======
 *{
     box-sizing: border-box;
   }
@@ -109,7 +79,6 @@ body {
   .company-info{
     background:#c9e6ff;
   }
->>>>>>> 3d68281548df8afc20e93b7cd915497239620f7a
   
 }
 
@@ -223,10 +192,8 @@ section {
 
 section .section-title {
     text-align: center;
-<<<<<<< HEAD
     color: #007b5e;
     margin-bottom: 50px;
-=======
     margin:0 0 1rem 0;
   }
   
@@ -269,7 +236,6 @@ section .section-title {
   .contact form button{
     background:#c9e6ff;
     border:0;
->>>>>>> 3d68281548df8afc20e93b7cd915497239620f7a
     text-transform: uppercase;
 }
 
